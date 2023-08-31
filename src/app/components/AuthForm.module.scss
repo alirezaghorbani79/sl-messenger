@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formCard {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 40px 20px;
+}
+
+.form {
+    width: 50%;
+    max-width: 50%;
+}
+
+.socialButtons {
+    display: flex;
+    margin: 10px 0;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.registerBtn {
+    margin: 3px;
+
+    &:last-child {
+        text-decoration: underline;
+    }
+}

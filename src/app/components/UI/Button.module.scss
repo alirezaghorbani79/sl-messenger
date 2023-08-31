@@ -1,0 +1,43 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 8px 12px;
+    color: #FFF;
+    background-color: #0ea5e9;
+    cursor: pointer;
+    border: none;
+
+    &:hover {
+        background-color: #0284c7;
+    }
+
+    &:focus-visible {
+        background-color: #0284c7;
+    }
+}
+
+.disabled {
+    opacity: 50%;
+    cursor: default;
+}
+
+.full {
+    width: 100%;
+}
+
+.secondary {
+    color: #111827;
+}
+
+.danger {
+    background-color: #f43f5e;
+
+    &:hover {
+        background-color: #e11d48;
+    }
+
+    &:focus-visible {
+        outline: #e11d48;
+    }
+}
