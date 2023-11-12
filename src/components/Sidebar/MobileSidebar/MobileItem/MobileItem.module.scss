@@ -1,0 +1,26 @@
+.link {
+    display: flex;
+    line-height: 24px;
+    width: 100%;
+    justify-content: center;
+    padding: 16px;
+    color: #6b7280;
+    font-size: 14px;
+
+
+    &:hover {
+        color: #000;
+        background-color: #f3f4f6;
+    }
+}
+
+.active {
+    background-color: #f3f4f6;
+    color: #000;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}

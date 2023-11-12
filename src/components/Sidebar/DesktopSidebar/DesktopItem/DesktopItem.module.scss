@@ -1,0 +1,41 @@
+.item {
+    margin: 2px 0;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.link {
+    display: flex;
+    column-gap: 12px;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6b7280;
+
+    &:hover {
+        color: #000;
+        background-color: #f3f4f6;
+    }
+}
+
+.active {
+    background-color: #f3f4f6;
+    color: #000;
+}
+
+.span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}

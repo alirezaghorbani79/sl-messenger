@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.scss'
-import AuthForm from '../components/AuthForm'
+import AuthForm from '@/components/AuthForm'
 
 export default function Home() {
     return (
