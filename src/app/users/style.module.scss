@@ -1,0 +1,15 @@
+.container {
+    display: block;
+    padding-left: 320px;
+    height: 100vh;
+}
+
+.userListBox {
+    height: 100vh;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        display: none;
+    }
+}

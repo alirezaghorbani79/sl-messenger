@@ -1,0 +1,22 @@
+.body {
+    padding: 40px 32px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    margin-top: 8px;
+    color: #111827;
+    font-size: 14px;
+    line-height: 32px;
+}

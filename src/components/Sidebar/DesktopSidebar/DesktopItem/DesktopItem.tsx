@@ -8,7 +8,7 @@ interface DesktopItemProps {
     label: string
     icon: any
     href: string
-    onClick: () => void
+    onClick?: () => void
     active?: boolean
 }
 

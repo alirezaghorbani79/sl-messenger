@@ -9,7 +9,7 @@
     background: #FFF;
     border-right: 1px solid #969696;
     padding: 0 24px;
-    padding-bottom: 80px;
+    padding-bottom: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,6 +30,23 @@
     margin-top: 4px;
     padding: 0;
     list-style: none;
+}
+
+.userNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.userAvatar {
+    cursor: pointer;
+    transition: ease 0.2 all;
+
+    &:hover {
+        opacity: 0.75;
+    }
 }
 
 @media (max-width: 1024px) {

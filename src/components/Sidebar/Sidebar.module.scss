@@ -1,3 +1,13 @@
 .container {
     height: 100vh;
 }
+
+.main {
+    height: 100%;
+}
+
+@media (min-width: 1024px) {
+    .main {
+        padding-left: 80px;
+    }
+}

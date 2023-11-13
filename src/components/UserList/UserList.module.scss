@@ -1,0 +1,28 @@
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 80px;
+    width: 320px;
+    display: block;
+    overflow-y: hidden;
+    border-right-width: 1px;
+    border-color: #e5e7eb;
+    
+}
+
+.box {
+    padding: 0 20px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #262626;
+    padding: 16px 0;
+}

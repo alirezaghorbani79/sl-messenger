@@ -4,10 +4,18 @@ import useRoutes from '@/hooks/useRoutes'
 import styles from './DesktopSidebar.module.scss'
 import { useState } from 'react'
 import DesktopItem from './DesktopItem/DesktopItem'
+import { User } from '@prisma/client'
+import Avatar from '@/components/Avatar'
 
-const DesktopSidebar = () => {
+interface DesktopSidebarProps {
+    currentUser: User
+}
+
+const DesktopSidebar: React.FC<DesktopSidebarProps> = ({ currentUser }) => {
     const routes = useRoutes()
     const [isOpen, setIsOpen] = useState(false)
+
+    console.log(currentUser)
 
     const items = routes.map((item) => (
         <DesktopItem
@@ -26,6 +34,11 @@ const DesktopSidebar = () => {
                 <ul role="list" className={styles.list}>
                     {items}
                 </ul>
+            </nav>
+            <nav className={styles.userNav} onClick={() => setIsOpen(true)}>
+                <div className={styles.userAvatar}>
+                    <Avatar user={currentUser} />
+                </div>
             </nav>
         </div>
     )
