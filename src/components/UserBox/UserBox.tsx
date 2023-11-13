@@ -31,8 +31,15 @@ const UserBox: React.FC<UserBoxProps> = ({ data }) => {
     }
 
     return (
-        <div className={styles.box}>
+        <div className={styles.box} onClick={handleClick}>
             <Avatar user={data} />
+            <div className={styles.infoBox}>
+                <div className={styles.textBox}>
+                    <div className={styles.name}>
+                        <p>{data.name}</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

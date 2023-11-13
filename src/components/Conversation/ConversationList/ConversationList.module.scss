@@ -1,0 +1,52 @@
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 80px;
+    width: 320px;
+    display: block;
+    overflow-y: auto;
+    border-right-width: 1px;
+    border-color: #e5e7eb;
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+    // width: 100%;
+    // left: 0;
+}
+
+.box {
+    padding: 0 20px;
+}
+
+.infoBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding-top: 16px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.icon {
+    border-radius: 999px;
+    padding: 8px;
+    background-color: #f3f4f6;
+    color: #4b5563;
+    transition: all .2s ease;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}
